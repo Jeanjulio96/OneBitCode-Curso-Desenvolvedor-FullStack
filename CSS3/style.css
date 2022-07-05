@@ -1,0 +1,56 @@
+li{
+    color: yellow;
+    font-size: 20px;
+}
+h1{
+    font-size: 30px;
+    background-color: purple;
+    border-color: yellow;
+    border-width: 8px;
+    border-style: solid;
+    /*border: 2px dashed orange; Forma otimizada*/ 
+}
+body{
+
+    background-color: grey;
+    background-image: url('https://media.istockphoto.com/vectors/space-background-with-realistic-nebula-and-shining-stars-colorful-vector-id1173451503?k=20&m=1173451503&s=612x612&w=0&h=nyxt3C6OjEFcquvjLALrIz-67IEOEpfKNBvR8qi4sLA=');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.moon{
+    color: red;
+}
+
+#europe-text{
+    font-size: 40px;
+    color: blue;
+}
+
+/*Seletores Avancados*/
+
+/**{
+    font-size: 10px; colocar propriedade em todos os elementos
+}*/
+
+/*li a{
+    color: blue; Seletor de descendencia: Mudar link ancora de li
+}*/
+
+/*li>a{
+    color: green; Pai pra filho
+}*/
+
+/*hi + h4{
+    border: 10; Uma coisa associada a outra ou logo depois 
+}*/
+
+/*a[href='Nome']{
+    color: blue; Seletor de atributo
+}*/
+
+li:nth-of-type(2){
+    color: orange;
+}
+/*(odd) - Adiciona estilo aos números impares da listagem*/
+
